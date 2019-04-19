@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#main-container {
+    width: 66vw;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.header-wrapper {
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.header-title {
+    font-family: "TIMES NEW ROMAN";
+    font-weight: bold;
+    padding-top: 45px;
+    padding-left: 25px;
+}
+
+.header-title > h1 {
+    margin: -15px;
+    font-size: 50px;
+}
+
+.navitem {
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 80%;
+}
+
+.navitem > a{
+    color: black !important;
+    font-size: 70%;
+}
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-bottom: 50px;
+}
+
+.news {
+    background-color: rgb(145, 24, 24);
+    color: white;
+    height: 380px;
+    overflow-y: auto;
+    padding: 10px 20px 0 10px;
+}
+
+.resize {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.contact > p{
+    margin-bottom: 0px;
+}
+
+.contact{
+    margin-top: 125px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.wood-right{
+    position: fixed;
+    right: 0;
+    width:17vw;
+    height: 100vh;
+    background-image: url('../whitewood.jpg');
+}
+.wood-left {
+    position: fixed;
+    left: 0;
+    width: 17vw;
+    height: 100vh;
+    background-image: url('../whitewood.jpg');
+}
+
+.footer-container {
+    text-align: center;
+    width: 100%;
+    border-top: 3px solid black;
+    margin-top: 25px;
+    margin-right: 50px;
+    padding: 10px 0;
+}
+
+.footer-links {
+    font-weight: bold;
+}
+
+.copyright {
+    color: rgb(100,100,100);
+}
+
+.side-nav {
+    background-color: rgb(145, 24, 24);
+    width: 100%;
+    color: white;
+    padding: 12px 100px 12px 12px; 
+}
+
+.side-nav div {
+    border: 1px solid white;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.side-nav > h1 {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: thin;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.side-nav > img {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+}
+.image-grid > .row > .col-sm-6 {
+    padding: 0;
+}
+
+.grid-image {
+    width: 100%;
+    height: auto;
+}
+
+.news > h1{
+    font-size: 20px;
+
+}
+
+.news div{
+    border: 1px solid white;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 25px;
+}
